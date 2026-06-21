@@ -1,25 +1,38 @@
-# color-picker
+# 颜色拾取器
 
-Color picker - HEX/RGB/HSL conversion, palette, favorites
+> 网页颜色选择工具，HEX/RGB/HSL/HSV 实时转换，调色板导出，渐变色预览
 
-## Features
+## 功能概览
 
-Pure frontend tool - no server required, open in browser and use.
+- **HEX / RGB / HSL / HSV 四种颜色格式实时互转，编辑即预览**
+- **色相环 + 饱和度/明度面板精细调色**
+- **取色器模式：点击页面任意位置取色（需浏览器支持）**
+- **收藏色板：保存常用颜色，跨会话持久化（localStorage）**
+- **CSS 变量/SCSS 变量导出，适配前端开发工作流**
 
-## Usage
+## 操作说明
 
-1. Download index.html
-2. Open in browser
-3. Start using!
+1. 打开 index.html（浏览器直接运行，无需服务器）
+2. 按界面引导输入/操作
+3. 结果实时预览，支持一键复制导出
 
-Or visit GitHub Pages (if configured).
+## 技术栈
 
-## Tech Stack
+- **HTML5**：语义化结构
+- **CSS3**：白色极简主题，Flex/Grid 布局
+- **Vanilla JavaScript**：纯原生代码，零依赖
+- **ES6+**：sync/await、箭头函数、模板字符串
+- **localStorage**：偏好设置持久化
 
-- Pure HTML/CSS/JavaScript
-- Zero dependencies, no build tools
-- White minimalist theme design
+## 兼容性
 
-## License
+| 浏览器 | 支持情况 |
+|---|---|
+| Chrome 90+ | 完全支持 |
+| Firefox 88+ | 完全支持 |
+| Safari 14+ | 完全支持 |
+| Edge 90+ | 完全支持 |
 
-MIT
+## 许可证
+
+MIT (c) solcat1007
